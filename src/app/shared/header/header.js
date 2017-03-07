@@ -12,6 +12,10 @@ var core_1 = require('@angular/core');
 var header = (function () {
     function header() {
     }
+    // Activate the side menu 
+    header.prototype.ngOnInit = function () {
+        $(".button-collapse").sideNav();
+    };
     header = __decorate([
         core_1.Component({
             selector: 'header',
