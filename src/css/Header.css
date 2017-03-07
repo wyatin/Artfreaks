@@ -209,13 +209,69 @@ nav .brand-logo img{min-width:250px;}
 ul.sub-menu li {padding: 10px 0; }
 ul.sub-menu li a{font-family: Myriad Pro Condensed, sans-serif; color: #000; font-size: 16px; }
 
+/*:::::::: mesory :::::::*/
+img, iframe {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 1.5em auto;
+}
+
+.masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+	-moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+}
+
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 0.5em;
+    margin: 0 0 1.5em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+
+
 @media only screen and (max-width:1200px){
 	.container{width:85%}
+     .wrapper {
+        width: 95%;
+    }
 	}
+@media only screen and (maX-width: 1100px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
 
 @media only screen and (min-width:993px) and (max-width:1024px) {
 	nav .brand-logo{width:35%; float:left;}	
 	.container{width:87%}
+     .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
 }
 	
 @media only screen and (max-width:992px) {
@@ -223,6 +279,11 @@ ul.sub-menu li a{font-family: Myriad Pro Condensed, sans-serif; color: #000; fon
 nav {padding:0px;}
 nav .brand-logo{width:85%; float:none; transform: translateX(0%); text-align:center;}
 main{margin-top: 80px;}	
+.masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
 }
 
 @media only screen and (max-width:767px) {
@@ -283,6 +344,11 @@ main{margin-top: 80px;}
 
     .wel .btn, .btn-large, .btn-flat {
         padding: 0 5rem;
+    }
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
     }
 
     @media only screen and (max-width:460px) {
