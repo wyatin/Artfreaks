@@ -53,14 +53,15 @@ nav ul a:hover{background-color: transparent;}
   position: absolute;
   display: none;
   width: 140px;
-  background: #FFF;
+  background: #757575;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   padding-top: 0;
   text-align:center;
   color:#000;
   position:absolute;
   z-index:2;
-  
+  height:auto;  
+  margin: -5px 0 0 10px;
 }
 
 .navigation li ul.dropdown li 
@@ -71,6 +72,7 @@ nav ul a:hover{background-color: transparent;}
 .navigation li ul.dropdown li {
   display: block;
   list-style-type: none;
+  width:100%;
 }
 
 .navigation li ul.dropdown li a {
@@ -124,6 +126,16 @@ ul.social li a:hover{background-color:transparent;}
 
 
 .search-area{width:185px; float:left; margin-left:20.5%;margin-top: 15px;}
+
+.navbar-fixed1 {
+    height: 35px;
+}
+.navbar-fixed1 nav1 {
+    position: fixed;
+}
+.grey.darken-1 {
+    background-color: #757575 !important;
+}
 /*::::::::::::::::*/
 .badge-align{
    border-radius: 18px;

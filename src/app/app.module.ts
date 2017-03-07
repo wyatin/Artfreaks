@@ -29,6 +29,10 @@ import {artistname} from'./artistname/artistname';
 import {artistnamebox} from'./artistnamebox/artistnamebox';
 import {artistlocation} from'./artistlocation/artistlocation';
 import {artdeal} from'./artdeal/artdeal';
+import {forgotpassword} from'./forgotpassword/forgotpassword';
+import {paintingclick} from'./paintingclick/paintingclick';
+import {home} from'./home/home';
+import {carousel} from'./carousel/carousel';
 export const routing: ModuleWithProviders = RouterModule.forRoot(MODULE_ROUTES);
 @NgModule({
   imports:      [ BrowserModule,
@@ -40,7 +44,7 @@ export const routing: ModuleWithProviders = RouterModule.forRoot(MODULE_ROUTES);
                   routing,
                   
                    ],
-  declarations: [ AppComponent,MaterializeDirective,upload,tag,aboutus,article,findyourart,contactartist,artistpage,paintings,paintingbox,photography,drawings,sclupture,digital,artistname,artistnamebox,artistlocation,artdeal ],
+  declarations: [ AppComponent,MaterializeDirective,upload,tag,aboutus,article,findyourart,contactartist,artistpage,paintings,paintingbox,photography,drawings,sclupture,digital,artistname,artistnamebox,artistlocation,artdeal,forgotpassword,paintingclick,home,carousel ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
