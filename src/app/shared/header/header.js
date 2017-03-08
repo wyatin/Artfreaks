@@ -15,6 +15,7 @@ var header = (function () {
     // Activate the side menu 
     header.prototype.ngOnInit = function () {
         $(".button-collapse").sideNav();
+        $(".dropdown-button").dropdown();
     };
     header = __decorate([
         core_1.Component({

@@ -1,6 +1,6 @@
 @charset "utf-8";
 .sub-nav       {float:left; width:90%; margin:0; padding:0px 5%; display:block; z-index:99;}
-#sub-nav-wrap   {max-width:100%; margin: 0px auto;}
+#sub-nav-wrap   {max-width:100%; margin:25px 0;}
  
 /* menu icon */
 #sub-menu-icon { display: none; /* hide menu icon initially */}
@@ -47,7 +47,7 @@ ul.sub-menu     {display:block;  text-align:center; width:auto; padding:0; margi
 
 
 
-@media only screen and ( min-width: 240px) and ( max-width: 767px) {
+@media only screen and ( min-width: 240px) and ( max-width: 600px) {
 
 ul.sub-menu a, ul.sub-menu li { font-size:14px;}
 

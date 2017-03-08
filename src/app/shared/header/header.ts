@@ -8,6 +8,7 @@ export class header{
      				// Activate the side menu 
        		ngOnInit(){
            	$(".button-collapse").sideNav();
+            $(".dropdown-button").dropdown();
            }
       		
 }
